@@ -48,7 +48,7 @@ router.post('/message', async (req, res) => {
     console.log(err);
     res.status(500).json(err);
   }
-  res.send('message got secess')
+  res.send('message got secesss')
 })
 
 router.get("/axiscard", async (req, res) => {
